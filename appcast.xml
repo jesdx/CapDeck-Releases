@@ -6,6 +6,31 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>CapDeck</title>
         <item>
+            <title>1.2.3</title>
+            <pubDate>Wed, 15 Jul 2026 01:22:31 +0700</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# CapDeck 1.2.3
+
+## Fixes
+
+- A capture shortcut no longer tears down an open Save dialog. When the
+  Preview, Annotation editor, or History window has a save sheet open,
+  triggering a new capture is ignored instead of silently cancelling the
+  in-progress save.
+
+## Under the hood
+
+- Native windowing code moved into per-feature presenters, leaving Services
+  focused on system access.
+- Formatted the codebase with SwiftFormat and added continuous integration
+  (build, test, and lint).
+]]></description>
+            <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.3/CapDeck-1.2.3-macOS.zip" length="2583160" type="application/octet-stream" sparkle:edSignature="jWVi0KCcfywddkYfg7zt8SBUQke19RPpgcjkBFgiSp2JNWzi44kNon2JhxSf2h+aaoBhJ/12FlPaON8pG2EkDw=="/>
+        </item>
+        <item>
             <title>1.2.2</title>
             <pubDate>Tue, 14 Jul 2026 23:05:23 +0700</pubDate>
             <sparkle:version>5</sparkle:version>
@@ -22,10 +47,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
   immediate retry.
 ]]></description>
             <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.2/CapDeck-1.2.2-macOS.zip" length="2582677" type="application/octet-stream" sparkle:edSignature="tMvYssGH0pzvFUDEChZ1Yq2MJixi4qqSSfHtONtnghND64ia95ayfQV/lC73F3/stAJSCqw6h4Te1tHRNw2qCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.2/CapDeck5-4.delta" sparkle:deltaFrom="4" length="35862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wmY+ggaEL+dc48Uh9cTQWPrF4x4NXtYh8Kx/pnHbSaBqVH3SCLgeBMlGCBP2rCkHU6rC32wMWYceRcHS2gg/BA=="/>
-                <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.2/CapDeck5-3.delta" sparkle:deltaFrom="3" length="57022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ws3EPOotY/IZ+/JA1MKlN6cVI/YKe2FhOXIwE3crThkHghtOVZyIeOIMBPHe4CDs4aKXZ02Ihtu+WyXfDva9Bw=="/>
-            </sparkle:deltas>
         </item>
         <item>
             <title>1.2.1</title>
@@ -49,10 +70,7 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 - Retains portable release checksums and the corrected Sparkle helper-signing
   pipeline.
 ]]></description>
-            <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.2/CapDeck-1.2.1-macOS.zip" length="2582295" type="application/octet-stream" sparkle:edSignature="j9tYIdVeUsfLwzcUlSWMc+t9n5e9tUA0B4miiFE0mLuuE4QWck6sVTWvycIs8+u9PegPSkpjgb5+RvGFDAHaAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.1/CapDeck4-3.delta" sparkle:deltaFrom="3" length="55870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZwZo5wrOOa/3s4vA3bIb4Ag1YE0PiIUuiAHhzLxsM/DUrwvR6TgevjBHXE1hVaZODZsObcre3hn19DpvHjiVCA=="/>
-            </sparkle:deltas>
+            <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.1/CapDeck-1.2.1-macOS.zip" length="2582295" type="application/octet-stream" sparkle:edSignature="j9tYIdVeUsfLwzcUlSWMc+t9n5e9tUA0B4miiFE0mLuuE4QWck6sVTWvycIs8+u9PegPSkpjgb5+RvGFDAHaAQ=="/>
         </item>
         <item>
             <title>1.2.0</title>
@@ -77,11 +95,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 - Writes portable SHA-256 checksum files using relative archive names.
 - Adds release gates for the required updater security configuration.
 ]]></description>
-            <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.2/CapDeck-1.2.0-macOS.zip" length="2583405" type="application/octet-stream" sparkle:edSignature="V47SSjKUJmxuCXkF0hS6op5PVtHBydQW1bPlhjNA6rtuJtnBh8aRda1C888v7FO9+xFnrKTIkhmF52vx9+MZDw=="/>
+            <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.0/CapDeck-1.2.0-macOS.zip" length="2583405" type="application/octet-stream" sparkle:edSignature="V47SSjKUJmxuCXkF0hS6op5PVtHBydQW1bPlhjNA6rtuJtnBh8aRda1C888v7FO9+xFnrKTIkhmF52vx9+MZDw=="/>
         </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: nlk7oQNDbcFX/T/P4JL1d+8msM+ADgX91DnIQD6cpPOhzErfGxQHZ2w7fmWsH9HA6E7MAUGAPgCpPV4EfJLxAA==
-length: 5249
+edSignature: QLZ43rFGYBWY2sCtwslgHFN9FVQICtqDP9HJ2Hp63a5t6cDIzMhny9wNIWIihW4e2QEM2Th6OJCf08a0+CdeCg==
+length: 7774
 -->
