@@ -28,11 +28,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 - Writes portable SHA-256 checksum files using relative archive names.
 - Adds release gates for the required updater security configuration.
 ]]></description>
-            <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.0/CapDeck-1.2.0-macOS.zip" length="2583861" type="application/octet-stream" sparkle:edSignature="er9Z/AYSnj7VtIcYDrdLUueYYKYi338IjNkMmLriwterBXIW4Gr/sRfx39tJODMOpsQWy+KSk1BF0FwIwhdfCg=="/>
+            <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.0/CapDeck-1.2.0-macOS.zip" length="2583405" type="application/octet-stream" sparkle:edSignature="V47SSjKUJmxuCXkF0hS6op5PVtHBydQW1bPlhjNA6rtuJtnBh8aRda1C888v7FO9+xFnrKTIkhmF52vx9+MZDw=="/>
         </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ZgoYeC+RSdvxFJm0Kto9ngDo7WmqpR9HkMN3/JxJ2mS0ZCMUmEh6ryRmClV06HpUzXSwAzxpo5X9xsjA79eYAg==
+edSignature: ac14/rDw56NOHstb3C3A0bgbGVirl56DsfAXUy92tl281cY7bn8NvJDD0zJew5yDlJmd1gHWadPrF5oNOM+cDw==
 length: 1758
 -->
