@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>CapDeck</title>
+        <item>
+            <title>1.2.0</title>
+            <pubDate>Tue, 14 Jul 2026 22:09:28 +0700</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# CapDeck 1.2.0
+
+## Software Updates
+
+- Adds a native **Check for Updates…** action to the menu bar and Settings.
+- Adds an opt-in daily automatic update check.
+- Verifies update archives and the appcast with Sparkle EdDSA signatures before
+  extraction.
+- Keeps installation user-confirmed; silent automatic installation is disabled.
+
+## Release Reliability
+
+- Generates archive names from the built app's version.
+- Writes portable SHA-256 checksum files using relative archive names.
+- Adds release gates for the required updater security configuration.
+]]></description>
+            <enclosure url="https://github.com/jesdx/CapDeck-Releases/releases/download/v1.2.0/CapDeck-1.2.0-macOS.zip" length="2583861" type="application/octet-stream" sparkle:edSignature="er9Z/AYSnj7VtIcYDrdLUueYYKYi338IjNkMmLriwterBXIW4Gr/sRfx39tJODMOpsQWy+KSk1BF0FwIwhdfCg=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: ZgoYeC+RSdvxFJm0Kto9ngDo7WmqpR9HkMN3/JxJ2mS0ZCMUmEh6ryRmClV06HpUzXSwAzxpo5X9xsjA79eYAg==
+length: 1758
+-->
